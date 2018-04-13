@@ -1,0 +1,20 @@
+{
+  "name": "QueryIT",
+  "version": "1.0.0",
+  "description": "A robust query builder application for a vast variety of databases with a simple UI.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "git clone https://github.com/garimellasai1/QueryIT.git",
+  "keywords": [
+    "electron",
+    "electron-app",
+    "electron-application"
+  ],
+  "author": "GitHub",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
