@@ -16,5 +16,11 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "electron": "^1.8.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "bootstrap-select": "^1.12.4",
+    "jquery": "^2.2.4",
+    "popper.js": "^1.14.3"
   }
 }
