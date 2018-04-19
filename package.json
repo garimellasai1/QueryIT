@@ -1,26 +1,29 @@
 {
-  "name": "QueryIT",
+  "name": "electron-quick-start",
   "version": "1.0.0",
-  "description": "A robust query builder application for a vast variety of databases with a simple UI.",
+  "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "git clone https://github.com/garimellasai1/QueryIT.git",
+  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
-    "electron",
-    "electron-app",
-    "electron-application"
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
   ],
   "author": "GitHub",
-  "license": "Apache-2.0",
+  "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^1.8.4"
   },
   "dependencies": {
-    "bootstrap": "^4.1.0",
+    "bootstrap": "^4.0.0-beta",
     "bootstrap-select": "^1.12.4",
-    "jquery": "^2.2.4",
+    "jquery": "^3.3.1",
+    "mysql": "^2.15.0",
     "popper.js": "^1.14.3"
   }
 }

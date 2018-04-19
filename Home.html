@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/bootstrap-selectpicker.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">    
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <title></title>
+  <meta charset="utf-8" />
+</head>
+<body>           
+        <!-- <div class="wrapper">                
+                <nav id="sidebar">
+                        <div class="sidebar-header">
+                            <h3>Bootstrap Sidebar</h3>
+                        </div>
+                        <ul class="list-unstyled components" id="schema-list">
+                                <li>    
+                                        <a href="#">
+                                            <select id="db-schemas" class="selectpicker">                                    
+                                            </select>
+                                        </a>
+                                    </li>
+                        </ul>
+                        <ul class="list-unstyled components">
+                                <p><b>List of tables</b></p></ul>
+                                <div>
+                        <ul class="list-unstyled components" id="tableNames-list">
+                        </ul>    
+                    </div>            
+                    </nav>
+                <div id="content" style="width: 90%">                    
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">    
+                            <div class="navbar-header">
+                                <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                    <i class="glyphicon glyphicon-align-left"></i>
+                                    <span>Query IT</span>
+                                </button>
+                            </div>
+    
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#">File</a></li>
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">View</a></li>
+                                    <li><a href="#">Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="row form-group droppable-item" style="height:50%;border: dotted 1px black">
+                        <div class="col-xs-12 col-md-12 col-lg-12">                        
+                    </div>
+                    </div>
+                    <div class="row form-group" style="height:30%;border: dotted 1px black">
+                            <div class="col-xs-12 col-md-12 col-lg-12">   
+                                <span  id="query-output">
+
+                                </span>                     
+                        </div>
+                        </div>
+                </div>            
+            </div>   -->
+
+
+            <div class="wrapper">
+                <nav id="sidebar">
+                        <div class="sidebar-header">
+                            <h3>Query IT</h3>
+                        </div>
+                        <ul class="list-unstyled components" id="schema-list">
+                                <li>    
+                                        <a href="#">
+                                            <select id="db-schemas" class="selectpicker">                                    
+                                            </select>
+                                        </a>
+                                    </li>
+                        </ul>
+                        <ul class="list-unstyled components">
+                                <p><b>List of tables</b></p></ul>
+                                <div>
+                        <ul class="list-unstyled components" id="tableNames-list">
+                        </ul>    
+                    </div>            
+                    </nav>
+                    <div id="content">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+        
+                                <div class="navbar-header">
+                                    <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                        <i class="glyphicon glyphicon-align-left"></i>
+                                        <span>Query IT</span>
+                                    </button>
+                                </div>
+        
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#">File</a></li>
+                                            <li><a href="#">Edit</a></li>
+                                            <li><a href="#">View</a></li>
+                                            <li><a href="#">Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="row form-group droppable-item" style="height:500px;border: dotted 1px black">
+                                <div class="col-xs-12 col-md-12 col-lg-12">                        
+                            </div>
+                            </div>
+                            <div class="row form-group" style="height:300px;border: dotted 1px black">
+                                    <div class="col-xs-12 col-md-12 col-lg-12">   
+                                        <span  id="query-output">
+        
+                                        </span>                     
+                                </div>
+                                </div>
+                        </div>
+                </div>
+            <script>      
+      require('./renderer.js')
+    </script>
+    <script>window.$ = window.jQuery = require('jquery');</script> 
+    <script>
+    require('bootstrap-select');</script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script> 
+    <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.js"></script> 
+    <script src="js/jquery-ui.js"></script> 
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
+ <script src="js/home.js"></script>
+</body>
+</html>
